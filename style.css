@@ -2,7 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
     background-color: snow;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
 }
 
 .movie-list-container{
@@ -20,4 +28,50 @@
     height: 100%;
     background-color: lightblue;
     box-shadow: 5px 5px 8px grey;
+}
+
+.content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.description{
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+}
+
+p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+img{
+    height: 95%;
+    width: 95%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.p-div{
+    height: 80%;
+    width: 100%;
+}
+
+.btn-div{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+}
+
+.total{
+    margin: 30px;
+    font-size: 30px;
 }
