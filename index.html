@@ -10,14 +10,92 @@
 <body>
     <div class="movie-list-container">
         <div class="movie-box">
-
+            <h3>Uncharted</h3>
+            <div class="content">
+                <div class="description">
+                    <div class="p-div">
+                        <p>
+                            Description: Street-smart Nathan Drake is recruited by seasoned treasure hunter Victor "Sully" Sullivan to recover a fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada.
+                        </p>
+                        <p>
+                            Movie duration: 150 minutes
+                        </p>
+                        <p>
+                            Review: 6.4/10 on IMDb
+                        </p>
+                        <p class="price">
+                            Cost of Ticket: $20
+                        </p>
+                    </div>
+                    <div class="btn-div">
+                        <button onclick="buyTicket(this)">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="description">
+                    <img src="./img/uncharted.png" alt="uncharted poster">
+                </div>
+            </div>
         </div>
         <div class="movie-box">
-
+            <h3>Thor Love and Thunder</h3>
+            <div class="content">
+                <div class="description">
+                    <div class="p-div">
+                        <p>
+                            Description: Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.
+                        </p>
+                        <p>
+                            Movie duration: 130 minutes
+                        </p>
+                        <p>
+                            Review: 7.1/10 on IMDb
+                        </p>
+                        <p class="price">
+                            Cost of Ticket: $15
+                        </p>
+                    </div>
+                    <div class="btn-div">
+                        <button onclick="buyTicket(this)">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="description">
+                    <img src="./img/thor-love-and-thunder.png" alt="thor love and thunder poster">
+                </div>
+            </div>
         </div>
         <div class="movie-box">
-
+            <h3>Johnny English Strikes Again</h3>
+            <div class="content">
+                <div class="description">
+                    <div class="p-div">
+                        <p>
+                            Description: After a cyber-attack reveals the identity of all of the active undercover agents in Britain, Johnny English is forced to come out of retirement to find the mastermind hacker.            
+                        </p>
+                        <p>
+                            Movie duration: 120 minutes
+                        </p>
+                        <p>
+                            Review: 6.2/10 on IMDb
+                        </p>
+                        <p class="price">
+                            Cost of Ticket: $10
+                        </p>
+                    </div>
+                    <div class="btn-div">
+                        <button onclick="buyTicket(this)">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="description">
+                    <img src="./img/johnny-english-strikes-again.png" alt="johnny english strikes again poster">
+                </div>
+            </div>
         </div>
     </div>
+    <p class="total">
+        Total cost:
+        <span id="cost">$0</span>
+    </p>
+
+    <script src="./script.js"></script>
 </body>
 </html>
