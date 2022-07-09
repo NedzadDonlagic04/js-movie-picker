@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: snow;
+}
+
+.movie-list-container{
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.movie-box{
+    display: inline-block;
+    width: 30vw;
+    height: 100%;
+    background-color: lightblue;
+    box-shadow: 5px 5px 8px grey;
+}
